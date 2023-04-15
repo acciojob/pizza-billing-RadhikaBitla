@@ -63,7 +63,7 @@ public class Pizza {
             if(this.cheeseBill!=0)
             {
                 totalBill+=this.cheeseBill;
-                result=result+"Extra Cheese Added: "+String.valueOf(this.cheeseBill)+"\n";;
+                result=result+"Extra Cheese Added: "+String.valueOf(this.cheeseBill)+"\n";
             }
             if(this.toppingsBill!=0)
             {

@@ -8,12 +8,12 @@ public class Pizza {
 
     private int totalBill=0;
 
-    private int cheesePrice=80;
+    protected int cheesePrice=80;
 
     private int cheeseBill=0;
     private int toppingsBill=0;
 
-    private int ToppingsPrice=120;
+    protected int ToppingsPrice=120;
 
     private boolean takeAway=false;
     public Pizza(Boolean isVeg){
